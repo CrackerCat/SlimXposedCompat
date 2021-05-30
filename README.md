@@ -1,5 +1,5 @@
-![SlimHook]()
 ##SlimHook Xposed Compat是什么?
+
 Xposed compatibility for SlimHook and SandHook
 
 -----
@@ -17,6 +17,8 @@ Both SlimHook and SandHook can use this Xposed Compat framework for method hooki
 
 * Xposed API Compatibility
 * Android 5.0 - 12 Support
+* 
+              
               XposedHelpers.findAndHookMethod(this.getClass(), "testHookMethod",
                     new XC_MethodHook() {
                         @Override
